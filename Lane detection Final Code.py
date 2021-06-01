@@ -6,10 +6,10 @@ curveList = []
 avgVal=10
  
 def getLaneCurve(img,display=2):
- 
-    imgCopy = img.copy()
+     imgCopy = img.copy()
     imgResult = img.copy()
-    #### STEP 1
+   
+    #### STEP 1 (thresh holding)
     imgThres = Utilities.thresholding(img)
  
     #### STEP 2
